@@ -1,0 +1,61 @@
+/*** Add your styles here **/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/** Globales **/
+img {
+  max-width: 100%;
+  
+}
+.contenedor {
+  width: 100%;
+  max-width: 120rem; /** = 1200px; **/
+  margin: 0 auto;
+  position: relative;
+}
+header.site-header{
+  background-image: url(../img/barrasuperiorprincipal.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100px;
+  margin-top: 1rem;
+  
+  
+  
+ }
+
+
+/*redes sociales
+
+.redes-sociales a{
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 30px;
+}
+.contenido-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+
+
+@media only screen and (min-width:768px) {
+  header.site-header h1  {
+    font-size:4rem;
+  }
+  header.site-header .display-2 {
+    font-size: 2rem;
+  }
+}*/
+
