@@ -5,12 +5,12 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  body {
+  /*body {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
     
-  }
+  }*/
   
   /** Globales **/
   img {
@@ -27,7 +27,7 @@ html {
     background-image: url(../img/barrasuperiorprincipal.png);
     background-position: center center;
     background-size: cover;
-    height: 100px;
+    /*height: 100px;*/
     margin-top: 1rem;
     
 }
